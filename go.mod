@@ -3,7 +3,7 @@ module github.com/evmos/evmos/v6
 go 1.18
 
 require (
-	github.com/armon/go-metrics v0.4.0
+	github.com/armon/go-metrics v0.4.1
 	github.com/cosmos/cosmos-sdk v0.45.5
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/ibc-go/v3 v3.1.0
@@ -17,6 +17,7 @@ require (
 	github.com/onsi/gomega v1.19.0
 	github.com/pkg/errors v0.9.1
 	github.com/rakyll/statik v0.1.7
+	github.com/relevant-community/oracle v0.1.2
 	github.com/spf13/cast v1.5.0
 	github.com/spf13/cobra v1.5.0
 	github.com/stretchr/testify v1.7.5
@@ -118,7 +119,6 @@ require (
 	github.com/prometheus/tsdb v0.10.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/regen-network/cosmos-proto v0.3.1 // indirect
-	github.com/relevant-community/oracle v0.1.2 // indirect
 	github.com/rjeczalik/notify v0.9.2 // indirect
 	github.com/rs/cors v1.8.2 // indirect
 	github.com/rs/zerolog v1.26.0 // indirect
